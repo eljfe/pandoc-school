@@ -3,4 +3,4 @@
 # pandoc -o LPPMTEW.pdf LPPMTEW.md  --pdf-engine=lualatex  -V mainfont="Palatino"
 
 
-pandoc -o out.pdf in.md  --pdf-engine=lualatex  -V mainfont="Palatino"                                                 
+pandoc -o out.pdf in.md  --pdf-engine=lualatex  -V mainfont="Palatino" -H header.tex
